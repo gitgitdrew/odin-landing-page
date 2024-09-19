@@ -1,9 +1,6 @@
 
-
-
-.section1 {
-    display:flex;
-background-color: #1F2937;
+body {
+    font-family: "cute font";
 }
 
 .left-sidebar, .right-sidebar{
@@ -11,6 +8,12 @@ background-color: #1F2937;
    flex-shrink: 0;
     
 }
+
+.section1 {
+    display:flex;
+background-color: #1F2937;
+}
+
 
 .section1-content{
     display:flex;
@@ -32,9 +35,11 @@ background-color: #1F2937;
     margin: 0;
     padding: 0;
     gap: 16px;
+    align-items: center;
 }
 
 a {
-    color: #F9FAF8;
+    color: #E5E7EB;
     text-decoration: none;
+    font-weight: 18px;
 }
